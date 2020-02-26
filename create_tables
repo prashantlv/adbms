@@ -1,4 +1,4 @@
-create table LOCATION (Location_ID int(20), Regional_Group varchar(30));
+create table LOCATION (Location_ID int(20) not null, Regional_Group varchar(30),primary key(Location_ID));
 create table DEPARTMENT (Department_ID int (20), Name varchar(30), Location_ID int(20));
 create table JOB (Job_ID int(10), Functionn varchar(20));
 
