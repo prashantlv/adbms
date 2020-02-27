@@ -1,0 +1,15 @@
+1. select * from EMPLOYEE;
+2. select * from DEPARTMENT;
+3. select * from JOB;
+4. select * from LOCATION;
+5. select FIRST_NAME, LAST_NAME, SALARY, COMM from EMPLOYEE;
+6. 
+7. select FIRST_NAME, LAST_NAME, SALARY from EMPLOYEE;
+8. select * from EMPLOYEE where FIRST_NAME = 'PRASHANT';
+9. select FIRST_NAME, LAST_NAME from EMPLOYEE where DEPARTMENT_ID = 20;
+10.select FIRST_NAME, LAST_NAME from EMPLOYEE where SALARY between 3000 and 4500;
+11.select FIRST_NAME, LAST_NAME from EMPLOYEE where DEPARTMENT_ID = 10 or DEPARTMENT_ID = 20;
+12.select FIRST_NAME, LAST_NAME from EMPLOYEE where not DEPARTMENT_ID = 10 and not DEPARTMENT_ID = 30;
+13.select FIRST_NAME, LAST_NAME from EMPLOYEE where name like 'P%';
+14.select FIRST_NAME, LAST_NAME from EMPLOYEE where name like 'P%T';
+15.elect FIRST_NAME from EMPLOYEE where length(FIRST_NAME) = 4 and FIRST_NAME like 'A%';
