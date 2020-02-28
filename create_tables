@@ -1,7 +1,32 @@
-create table LOCATION (Location_ID int(20), Regional_Group varchar(30));
-create table DEPARTMENT (Department_ID int (20), Name varchar(30), Location_ID int(20));
-create table JOB (Job_ID int(10), Functionn varchar(20));
+create table LOCATION 
+(
+Location_ID int(20),
+Regional_Group varchar(30)
+);
 
-create table EMPLOYEE (EMPLOYEE_ID int(30), LAST_NAME varchar(20), FIRST_NAME varchar(20),
-MIDDLE_NAME varchar(10), JOB_ID int(30), MANAGER_ID int(50), HIREDATE date, SALARY int(50),
-COMM int(50),DEPARTMENT_ID int(20));
+create table DEPARTMENT 
+(
+Department_ID int (20),
+Name varchar(30),
+Location_ID int(20)
+);
+
+create table JOB 
+(
+Job_ID int(10),
+Functionn varchar(20)
+);
+
+create table EMPLOYEE 
+(
+EMPLOYEE_ID int(30),
+LAST_NAME varchar(20),
+FIRST_NAME varchar(20),
+MIDDLE_NAME varchar(10),
+JOB_ID int(30),
+MANAGER_ID int(50),
+HIREDATE date,
+SALARY int(50),
+COMM int(50),
+DEPARTMENT_ID int(20)
+);
